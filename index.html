@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Konversi Suhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Konversi Suhu</h1>
+
+        <div class="input-group">
+            <label for="celsius">Celsius (°C):</label>
+            <input type="number" id="celsius" name="celsius" value="0">
+        </div>
+
+        <button id="convert">Konversi</button>
+
+        <div class="output-group">
+            <label for="fahrenheit">Fahrenheit (°F):</label>
+            <input type="number" id="fahrenheit" name="fahrenheit" value="0" readonly>
+        </div>
+
+        <button id="reset">Reset</button>
+        <button id="reverse">Ubah Arah Konversi</button>
+
+        <div class="calculation">
+            <h2>Cara Kalkulasi:</h2>
+            <p id="calculation-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
